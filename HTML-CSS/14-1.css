@@ -1,0 +1,35 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#BFDAF8;
+    margin: 200px;
+}
+.profile-card{
+    background-color: whitesmoke;
+    border: 5px solid rgb(8, 6, 2);
+    padding: 40px;
+    width: 300px;
+    border-radius: 50px;
+}
+#name-header {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+}
+.title-text {
+    font-size: 1em;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+.profile-card p {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #333;
+}
+.contact-info a {
+    color: #fff;
+    background-color: #4a62f7;
+    padding: 6px 12px;
+    display: inline-block;
+}

@@ -1,0 +1,15 @@
+body {
+        background-color: lightblue;
+        border: 2px solid black;
+        border-width: 5px;
+}
+.profile-card {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+img{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
