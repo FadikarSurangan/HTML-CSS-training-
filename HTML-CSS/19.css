@@ -22,18 +22,20 @@ main{
 
 .nav-links {
     display: flex;
-    gap: 20px;
-    flex-wrap: wrap;     
-    justify-content: center;
-    align-items: center;
+    gap: 150px;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* overflow: auto; */
+}
+
+.nav-links a{
+    display: flex;
+    gap: 150px;
     overflow-x: auto;
 }
 
-.nav-links img {
-    flex-shrink: 0;      
-}
 
-.nav-links a, 
 .nav-links button {
     white-space: nowrap; 
     padding: 5px;

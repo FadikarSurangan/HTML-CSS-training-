@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 10px;
+    height: 300px;   
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+
+
+
+
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    /* gap: 20px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+}
+
+.card {
+    width: 120px;
+    height: 120px;
+    background-color:aquamarine;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.card1 {
+    background: orange;
+    /* align-self:flex-start; */
+    flex-grow: 5;
+    flex-shrink: 0;
+    /* order: 1; */
+    /* flex-basis: 200px; */
+}
+.card2 {
+    background-color: rgb(129, 129, 244);
+    /* flex-grow: 4; */
+    /* flex-shrink: 2; */
+    /*order: 2;*/
+}
+.card3 {
+    background: orange;
+    /* align-self: flex-end; */
+    /* flex-grow: 6; */
+    /* flex-shrink: 0; */
+}
