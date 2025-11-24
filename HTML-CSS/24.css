@@ -34,7 +34,15 @@ ul li a {
 ul li a:hover {
   background-color: #111111;
 }
-
+.post1{
+    height: 225px;
+    /* width: 504px; */
+}
+.post2{
+    height: 100%;
+    width: 75%
+    object-fit: cover;
+}
 .item{
     text-align: center;
     font-size: 2rem;
@@ -45,4 +53,32 @@ ul li a:hover {
     background-color: rgb(233, 233, 233);
     color: white;
 
+}
+.item3{
+  grid-column-start: 2;
+  grid-column-end: span 4;
+  grid-row-start: 2;
+  grid-row-end: span 3;
+  /* background-color:wheat; */
+}
+.item3-1{
+  grid-column-start: 2;
+  grid-column-end: span 4;
+  grid-row-start: 6;
+  grid-row-end: span 3;
+  /* background-color:wheat; */
+}
+.item7-1{
+  grid-column-start: 7;
+  grid-column-end: span 5;
+  grid-row-start: 2;
+  grid-row-end: span 3;
+  /* background-color:wheat; */
+}
+.item8-1{
+    grid-column-start: 7;
+    grid-column-end: span 5;
+    grid-row-start: 6;
+    grid-row-end: span 3;
+    /* background-color:wheat; */
 }
