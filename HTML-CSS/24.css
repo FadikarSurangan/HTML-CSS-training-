@@ -1,8 +1,8 @@
 .grid-container{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows:    repeat(15, 1fr);
-    gap: 5px;
+    grid-template-rows:    repeat(9, 1fr);
+    /* gap: 5px; */
     /* height: 800px; */
     /* width: 800px; */
     background-color: rgb(235, 233, 233);
@@ -14,10 +14,29 @@
     max-height: 70px;
     border-radius: 25px;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+ul li {
+  float: left;
+}
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+ul li a:hover {
+  background-color: #111111;
+}
 
 .item{
     text-align: center;
-   
     font-size: 2rem;
 }
 .item2{
