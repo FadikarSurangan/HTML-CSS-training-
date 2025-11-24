@@ -7,9 +7,9 @@ height: 100vh;
 background-color: lightblue;
 display: flex;
 flex: 0 0 100px ;
-/* flex-grow: 0; */
-/* flex-shrink: 0; */
-/* flex-basis: 100px; */
+/* flex-grow: 0;
+flex-shrink: 0;
+flex-basis: 100px; */
 justify-content: center;
 align-items: center;
 font-size: 24px;
@@ -26,16 +26,18 @@ overflow: auto;
 background-color: lightcoral;
 display: flex;
 flex-direction: column;
-flex-grow: 1;
+flex: 1 1 100px;
+/* flex-grow: 1;
 flex-shrink: 1;
 flex-basis: 100px;
-/* height: auto; */
+height: auto; */
 overflow: auto;
 }
 .sidebar{
 background-color: lightgoldenrodyellow;
-flex-grow: 0;
+flex: 0 1 200px;
+/* flex-grow: 0;
 flex-shrink: 1;
-flex-basis: 200px;
+flex-basis: 200px; */
 min-width: 50px;
 }
