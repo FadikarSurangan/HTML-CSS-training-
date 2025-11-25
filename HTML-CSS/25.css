@@ -13,10 +13,10 @@ body {
 
   grid-template-rows: 1fr 1fr 1fr ;
   grid-template-columns: 1fr 1fr 1fr 1fr;         
-  grid-template-areas: 
+  /* grid-template-areas: 
     "header header header header"
     "main main . sidebar"
-    "footer footer footer footer";
+    "footer footer footer footer"; */
   gap: 10px;                         
   border: 2px solid #333;
   padding: 10px;
@@ -29,7 +29,10 @@ body {
   font-size: 25px;
   text-align: center;
 }
-.item1 {
+.item1{
+  grid-area: 1 / col4-start / last-line / 6;
+}
+/* .item1 {
   grid-area: header;
 }
 .item2 {
@@ -40,7 +43,7 @@ body {
 }
 .item4 {
   grid-area: footer;
-}
+} */
 
 /* .grid-container {
   display: grid;
