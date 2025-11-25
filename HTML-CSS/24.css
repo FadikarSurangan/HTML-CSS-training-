@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .grid-container{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -5,7 +9,7 @@
     /* gap: 5px; */
     /* height: 800px; */
     /* width: 800px; */
-    background-color: rgb(235, 233, 233);
+    background-color: rgb(255, 255, 255);
     
 }
 .logo {
@@ -36,11 +40,11 @@ ul li a:hover {
 }
 .post1{
     height: 225px;
-    /* width: 504px; */
+    /* width: ; */
 }
 .post2{
     height: 100%;
-    width: 75%
+    width: 100%;
     object-fit: cover;
 }
 .item{
