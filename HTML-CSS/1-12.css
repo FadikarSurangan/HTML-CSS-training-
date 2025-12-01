@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #4f46e5;
+  --danger-color: #dc2626;
+  --text-on-primary: #ffffff;
+  --border-radius: 8px;
+  --padding-y: 10px;
+  --padding-x: 18px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: var(--text-on-primary);
+  border: none;
+  border-radius: var(--border-radius);
+  padding: var(--padding-y) var(--padding-x);
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn.danger {
+  background-color: var(--danger-color);
+}
