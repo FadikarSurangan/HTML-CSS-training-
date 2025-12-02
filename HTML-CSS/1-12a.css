@@ -1,0 +1,38 @@
+    @property --box-column {
+      syntax: "<color>";
+      inherits: false;
+      initial-value: red;
+    }
+
+    body {
+      background-color: lightblue;
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 40px;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+    }
+
+    .parent {
+      --box-column: dodgerblue;
+      background: #222;
+      padding: 20px;
+      border: 3px solid var(--box-column);
+      color: var(--box-column);
+      width: 500px;
+    }
+
+    .child {
+      margin-top: 15px;
+      padding: 15px;
+      border: 3px solid var(--box-column);
+      color: var(--box-column);
+      background: #333;
+    }
+
+    .child.override {
+    --box-column: lime;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.parent-true {
+    --main-color: green;
+    border: 2px solid var(--main-color);
+    padding: 10px;
+    margin: 10px;
+}
+.child-true {
+    color: var(--main-color, red);
+    border: 2px dashed var(--main-color);
+    padding: 10px;
+    margin: 10px;
+}
+</style>
+<body>
+    <div class="parent-true" >
+        Parent True
+        <div class="child-true">
+            Child True
+        </div>
+    </div>
+</body>
+</html>
