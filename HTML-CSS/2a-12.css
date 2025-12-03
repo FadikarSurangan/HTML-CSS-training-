@@ -1,0 +1,18 @@
+input:enabled,
+button:enabled {
+  background-color: lightgreen;
+  border: 2px solid green;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input:disabled,
+button:disabled {
+  background-color: lightgray;
+  border: 2px solid red;
+  padding: 10px;
+  font-size: 16px;
+  cursor: not-allowed;
+  opacity: 0.6;
+}

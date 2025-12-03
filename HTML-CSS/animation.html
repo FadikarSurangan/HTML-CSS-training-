@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Resize Animation</title>
+    <style>
+        .box-resize {
+          width: 100px;
+          height: 100px;
+          background-color: red;
+          animation: box-dimensions 3s linear infinite;
+        }
+
+        @keyframes box-dimensions {
+          0% {
+            width: 100px;
+            height: 100px;
+          }
+          50% {
+            width: 200px;
+            height: 200px; 
+          }
+          100% {
+            width: 100px;
+            height: 100px;
+          }
+        }
+    </style>
+</head>
+<body>
+    <div class="box-resize"></div>
+</body>
+</html>
