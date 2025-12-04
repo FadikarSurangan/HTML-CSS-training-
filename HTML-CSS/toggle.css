@@ -33,14 +33,19 @@ body {
     width: 23px;
     background-color: #ffffff;
     border-radius: 50%;
-    left: 4px;
-    top: 3px;
+    transform: translateX(4px);
+    /* transform: translateY(4px); */
+    top: 9%;
     transition: 0.3s;
 }
 .switch input:checked + .slider {
   background-color: #4ade80;
+  content: ON;
 }
 
 .switch input:checked + .slider::before {
   transform: translateX(30px);
+  content: OFF;
 }
+
+
