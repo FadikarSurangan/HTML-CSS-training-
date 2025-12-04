@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CSS Gradient Practice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .box {
+      height: 200px;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      transition: 0.4s;
+      cursor: pointer;
+    }
+
+    .linear {
+      background: linear-gradient(to right, red, yellow);
+    }
+
+    .linear-vertical {
+      background: linear-gradient(to bottom, blue, cyan);
+    }
+
+    .angle {
+      background: linear-gradient(45deg, purple, pink);
+    }
+
+    .radial {
+      background: radial-gradient(circle, orange, red);
+    }
+
+    .soft-radial {
+      background: radial-gradient(circle at top left, white, skyblue);
+    }
+
+    .conic {
+      background: conic-gradient(red, yellow, lime, cyan, blue, magenta, red);
+    }
+
+    .repeat-linear {
+      background: repeating-linear-gradient(
+        45deg,
+        black,
+        black 10px,
+        white 10px,
+        white 20px
+      );
+    }
+
+    .repeat-radial {
+      background: repeating-radial-gradient(
+        circle,
+        red,
+        red 10px,
+        yellow 10px,
+        yellow 20px
+      );
+    }
+
+    .multi {
+      background: linear-gradient(to right, #ff0080, #7928ca, #2afadf);
+    }
+
+    .hover {
+      background: linear-gradient(120deg, #00c6ff, #0072ff);
+    }
+
+    .hover:hover {
+      background: linear-gradient(120deg, #f857a6, #ff5858);
+      transform: scale(1.05);
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>🎨 CSS Gradient Practice</h1>
+
+  <div class="grid">
+    <div class="box linear">Linear</div>
+    <div class="box linear-vertical">Vertical</div>
+    <div class="box angle">Angle 45°</div>
+    <div class="box radial">Radial</div>
+    <div class="box soft-radial">Soft Radial</div>
+    <div class="box conic">Conic</div>
+    <div class="box repeat-linear">Repeating Linear</div>
+    <div class="box repeat-radial">Repeating Radial</div>
+    <div class="box multi">Multi Color</div>
+    <div class="box hover">Hover Me</div>
+  </div>
+
+</body>
+</html>
